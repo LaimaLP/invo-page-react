@@ -1,0 +1,27 @@
+.aside{
+    display: flex; 
+    flex-direction: column;
+    width: 20%;
+  justify-content: space-between;
+background-color: aqua;
+height: 100vh;
+padding: 20px 20px;
+position: absolute;
+top: 0;
+left: 0;
+}
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    padding:15px;
+    color: rgb(78, 74, 74);
+
+}
+.menu-container:hover{
+    background-color: rgb(5, 96, 253);
+    cursor: pointer;
+    padding:15px;
+    border-radius: 20px;
+    color: white;
+}

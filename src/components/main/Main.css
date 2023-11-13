@@ -1,0 +1,44 @@
+main{
+    background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 80%;
+        /* min-height: calc(100vh - 9rem); */
+        padding: 1rem 2rem 0 2rem;
+        float: right;
+        height: calc(100vh - 80px);
+    }
+    .virsus{
+        height: 20%;
+        width: 100%;
+        background-color: azure;
+        border-radius: 20px;
+    }
+    .vidurys{
+        height: 45%;
+        width: 100%;
+
+        background-color: azure;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .chartas{
+        width: 60%;
+        border: 2px solid black;
+    }
+    .advertisment{
+        width:30%;
+        border: 2px solid black;
+
+    }
+    .trecias{
+        height: 40%;
+        width: 100%;
+
+        background-color: azure;
+        border-radius: 20px;
+    }

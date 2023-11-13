@@ -1,0 +1,13 @@
+.firstSection{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.miniBlock{
+   width: 25%;
+   text-align: center;
+   border: 2px solid black;
+}
