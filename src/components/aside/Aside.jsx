@@ -1,10 +1,12 @@
 import './Aside.css';
-
+import img1 from 'img/Untitle.png';
+<img src="" alt="" />
 
 export function Aside() {
     return (
         <aside className="aside">
-            <div className="logo">img INVO.</div>
+            <img src={img1} alt=""/>
+            <div className="logo"> INVO.</div>
             <div className="menu-component">
                 <div className="menu-container">
                     <div>ICON</div>
@@ -17,3 +19,5 @@ export function Aside() {
         </aside>
     );
 }
+
+
